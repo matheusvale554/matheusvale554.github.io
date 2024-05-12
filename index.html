@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+</head>
+<body>
+
+<nav id="desktop-nav">
+<div class="logo"> Matheus silva</div>
+
+<div>
+<ul class="nav-links">
+<li> <a href="#sobre">Sobre</a></li>
+<li> <a href="#experiencia">Experiência</a></li>
+<li> <a href="#projetos">Projetos</a></li>
+<li> <a href="#contato">Contato</a></li>
+</ul>
+</div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Matheus silva</div>
+<div class="hamburger-menu">
+<div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div class="menu-links">
+<li> <a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+<li> <a href="#experiencia" onclick="toggleMenu()">Experiência</a></li>
+<li> <a href="#projetos"onclick="toggleMenu()">Projetos</a></li>
+<li> <a href="#contato" onclick="toggleMenu()">Contato</a></li>
+</div>
+</div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+      <img src="/assets/1715450370702.png" alt="Matheus silva foto de perfil" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Matheus silva</h1>
+      <p class="section__text__p2">Full-stack Dev</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume-example.pdf')"
+        >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contato'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile" 
+          class="icon"
+          target="blank"
+          onclick="window.open('https://www.linkedin.com/in/matheus-silva-developer55/', '_blank')"
+        />
+        <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="window.open('https://github.com/matheusvale554', '_blank')"
+        />
+      </div>
+    </div>
+  </section>
+  <section id="sobre">
+    <p class="section__text__p1">Mais</p>
+    <h1 class="title">Sobre mim</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assets/1715451071904.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Experiência</h3>
+            <p>1+ ano <br />Full-stack Development</p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Educação</h3>
+            <p>Cursando: Análise e desenvolvimento de sistemas<br />Cursos: Onebitcode Full-stack <br/>FreeCodeCamp: Front-end and Back-end</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+           Iniciei minha carreira na programação a pouco mais de 1 ano, desde então venho desenvolvendo minhas habilidades e participando de projetos praticos, Procuro uma vaga no mercado de trabalho onde possa encontrar maiores desafios e por em pratica o que eu venho estudando ao longo desse tempo, gosto de pensar em soluções práticas e tambem como solucionar problemas!
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#experience'"
+    />
+  </section>
+  <section id="experiencia">
+    <p class="section__text__p1">Explore minha</p>
+    <h1 class="title">Experiência</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"z
+                class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>CSS</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Typescript</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>React</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Next JS</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git GitHub</h3>
+                <p>Básico</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediário</p>
+              </div>
+            </article>
+            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Api Rest</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <section id="projetos">
+    <p class="section__text__p1">Veja meus</p>
+    <h1 class="title">Projetos mais recentes</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto 1</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/', '_blank')"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/','_blank')"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto 2</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/','_blank')"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/','_blank')"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-3.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto 3</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/','_blank')"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/','_blank')"
+            >
+              Live Demo
+            </button>
+          </div>
+          
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto 4</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/','_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/','_blank')"
+              >
+                Live Demo
+              </button>
+            </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contato">
+    <p class="section__text__p1">Entre em contato</p>
+    <h1 class="title">Contatos</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:matheusvale554@gmail.com?subject=Oportunidade de vaga" target="_blank">matheusvale554@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/matheus-silva-developer55/" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Matheus silva. All Rights Reserved.</p>
+  </footer>
+    <!-- script -->
+    <script src="./script.js"></script>
+    <!-- end script -->
+</body>
+</html>
