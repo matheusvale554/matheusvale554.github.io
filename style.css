@@ -347,7 +347,7 @@ section {
   
   article .icon {
     cursor: default;
-  margin-bottom: 0.5rem;
+    align-items: center;
   }
   
   /* PROJECTS SECTION */
