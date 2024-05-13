@@ -1,13 +1,13 @@
 @media screen and (max-width: 1400px) {
-    #profile {
+    #profile1 {
       height: 83vh;
       margin-bottom: 6rem;
     }
     .about-containers {
       flex-wrap: wrap;
     }
-    #contato,
-    #projetos {
+    #contato1,
+    #projetos1 {
       height: fit-content;
     }
   }
@@ -19,11 +19,11 @@
     #hamburger-nav {
       display: flex;
     }
-    #experiencia,
+    #experiencia1,
     .experience-details-container {
       margin-top: 2rem;
     }
-    #profile,
+    #profile1,
     .section-container {
       display: block;
     }
@@ -48,11 +48,11 @@
   }
   
   @media screen and (max-width: 600px) {
-    #contato,
+    #contato1,
     footer {
       height: 40vh;
     }
-    #profile {
+    #profile1 {
       height: 83vh;
       margin-bottom: 0;
     }
