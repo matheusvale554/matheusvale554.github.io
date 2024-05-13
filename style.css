@@ -260,7 +260,7 @@ section {
   
   /* ABOUT SECTION */
   
-  #about {
+  #sobre {
     position: relative;
   }
   
@@ -352,7 +352,7 @@ section {
   
   /* PROJECTS SECTION */
   
-  #projects {
+  #projetos {
     position: relative;
   }
   
@@ -379,7 +379,7 @@ section {
   
   /* CONTACT */
   
-  #contact {
+  #contato {
     display: flex;
     justify-content: center;
     flex-direction: column;
