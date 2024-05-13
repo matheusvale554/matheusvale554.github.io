@@ -159,7 +159,7 @@ section {
   
   /* PERFIL */
   
-  #profile1 {
+  #profile {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -260,7 +260,7 @@ section {
   
   /* SOBRE */
   
-  #sobre1 {
+  #sobre {
     position: relative;
   }
   
@@ -313,7 +313,7 @@ section {
   
   /* EXPERIENCIA */
   
-  #experiencia1 {
+  #experiencia {
     position: relative;
   }
   
@@ -352,7 +352,7 @@ section {
   
   /* PROJETOS */
   
-  #projetos1 {
+  #projetos {
     position: relative;
   }
   
@@ -379,7 +379,7 @@ section {
   
   /* CONTATO */
   
-  #contato1{
+  #contato{
     display: flex;
     justify-content: center;
     flex-direction: column;
