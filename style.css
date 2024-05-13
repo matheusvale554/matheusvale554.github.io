@@ -157,7 +157,7 @@ section {
     display: flex;
   }
   
-  /* PROFILE SECTION */
+  /* PERFIL */
   
   #profile {
     display: flex;
@@ -210,7 +210,7 @@ section {
     height: 2rem;
   }
   
-  /* BUTTONS */
+  /* BTN */
   
   .btn-container {
     display: flex;
@@ -258,9 +258,9 @@ section {
     gap: 1rem;
   }
   
-  /* ABOUT SECTION */
+  /* SOBRE */
   
-  #about {
+  #sobre {
     position: relative;
   }
   
@@ -311,9 +311,9 @@ section {
     margin: auto 0;
   }
   
-  /* EXPERIENCE SECTION */
+  /* EXPERIENCIA */
   
-  #experience {
+  #experiencia {
     position: relative;
   }
   
@@ -350,9 +350,9 @@ section {
     align-items: center;
   }
   
-  /* PROJECTS SECTION */
+  /* PROJETOS */
   
-  #projects {
+  #projetos {
     position: relative;
   }
   
@@ -377,9 +377,9 @@ section {
     border-color: rgb(163, 163, 163);
   }
   
-  /* CONTACT */
+  /* CONTATO */
   
-  #contact {
+  #contato {
     display: flex;
     justify-content: center;
     flex-direction: column;
