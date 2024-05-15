@@ -47,7 +47,7 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     #contato,
     footer {
       height: 40vh;
@@ -58,6 +58,7 @@
     }
     article {
       font-size: 1rem;
+      width: 100%;
     }
     footer nav {
       height: fit-content;
